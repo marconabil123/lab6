@@ -1,0 +1,202 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1{
+text-align: center;
+margin: 100px;
+
+  }
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(196, 21, 21);
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(https://wallpaperaccess.com/full/814543.jpg);
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: unset;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  h2{
+    text-align: center;
+    font-size: 33px;
+}
+  body {
+      font-family: Arial;
+      font-size: 17px;
+      padding: 8px;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row {
+      display: -ms-flexbox; 
+      display: flex;
+      -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+    
+    .col-25 {
+      -ms-flex: 25%; 
+      flex: 25%;
+    }
+    
+    .col-50 {
+      -ms-flex: 50%; 
+      flex: 50%;
+    }
+    
+    .col-75 {
+      -ms-flex: 75%; 
+      flex: 75%;
+    }
+    
+    .col-25,
+    .col-50,
+    .col-75 {
+      padding: 0 16px;
+    }
+    
+    .container {
+      background-color: #f2f2f2;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+    }
+    
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+    }
+    
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    
+    .btn:hover {
+      background-color: #45a049;
+    }
+    
+    a {
+      color: #2196F3;
+    }
+    
+    hr {
+      border: 1px solid lightgrey;
+    }
+    
+    span.price {
+      float: right;
+      color: grey;
+    }
+    
+  .row {
+        flex-direction: column-reverse;
+      }
+      .col-25 {
+        margin-bottom: 20px;
+      }
+    
